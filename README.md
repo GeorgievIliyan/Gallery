@@ -43,29 +43,32 @@ pip install django
 1. **Clone the project reposiotry** to your local machine  
   
     ```bash
-    git clone https://github.com/IliyanGeorgiev87/Gallery
+    git clone https://github.com/GeorgievIliyan/Gallery
     cd gallery_app
     ```
 2. **Create a virtual environment**: It’s good practice to use a virtual environment to manage your project’s dependencies. Run the following commands:
   
     ```bash
     # For Windows:
-    python -m venv venv
-    venv\Scripts\activate
+    python -m venv env
+    env\Scripts\activate
 
     # For Mac/Linux:
-    python3 -m venv venv
-    source venv/bin/activate
+    python3 -m venv env
+    source env/bin/activate
     ```
-3. **Install the dependencies**: With the virtual environment activated, install the project dependencies:
+3. **Import your django secret key**: 
+    - Inside the env folder create a KEYS.py file with a variable named "DJANGO_SECRET_KEY", containing your secret key. It will be automatically linked inside the settings.py.
+
+4. **Install the dependencies**: With the virtual environment activated, install the project dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-4. **Run migrations**
+5. **Run migrations**
     ```bash
     python manage.py makemigrations
     ```
-5. **Create a super user** or use existing one
+6. **Create a super user** or use existing one
     ```bash
     # create superuser (admin):
     python manage.py createsuperuser
@@ -74,7 +77,7 @@ pip install django
     username: admin
     password: admin
     ```
-6. **Run the development server**  
+7. **Run the development server**  
 Start the development server with the following command:
   
     ```bash
