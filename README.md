@@ -1,13 +1,13 @@
 ![Banner](banner.png)
 # Gallery app
 
-## Project Overview
+## Project Overview 📋
 A simple gallery app
 
 **Acknowledge**  
 This is among my first apps ever built. Please don`t judge. Thanks for reviewing the project! : )  
 
-### Features
+### Features 📱
  - Upload and preview photos
  - Associate photos with a category
  - Filter photos by a category
@@ -24,14 +24,14 @@ You can install Python and Django by following the instructions on their officia
 
 Alternatively, you can install Python and Django using `pip`.
 
-### Install Python
+### Install Python 🐍
 If you don’t have Python installed, you can download it from [python.org](https://www.python.org/downloads/). Once installed, verify the installation by running:
 
 ```bash
 python --version
 ```
 
-### Install Django
+### Install Django 🟩
 
 You can install Django using pip. Open your terminal/command prompt and run:
 
@@ -39,7 +39,7 @@ You can install Django using pip. Open your terminal/command prompt and run:
 pip install django
 ```
 
-## Installation of the project
+## Installation of the project 💻
 1. **Clone the project reposiotry** to your local machine  
   
     ```bash
@@ -57,7 +57,7 @@ pip install django
     python3 -m venv env
     source env/bin/activate
     ```
-3. **Import your django secret key**: 
+3. **Import your django secret key** 🔑: 
     - Inside the env folder create a KEYS.py file with a variable named "DJANGO_SECRET_KEY", containing your secret key. It will be automatically linked inside the settings.py.
 
 4. **Install the dependencies**: With the virtual environment activated, install the project dependencies:
@@ -88,7 +88,7 @@ Start the development server with the following command:
     ```bash
     Starting development server at http://127.0.0.1:8000/
     ```
-## Usage
+## Usage 
   - To use the app navigate to the following addres in your search bar:
     
     ```bash
@@ -108,7 +108,7 @@ Start the development server with the following command:
     ```
     now can log in into the provided account or the one created by you.
 
-## Contributing
+## Contributing 📃
 I am welcome for any contributions. Here is how to do it:  
   
 1. Fork the repository on GitHub.
